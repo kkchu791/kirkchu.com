@@ -112,7 +112,7 @@ export default function Home() {
               playsInline
               className="w-full rounded-lg shadow-2xl"
             >
-              <source src="${process.env.NEXT_PUBLIC_S3_BASE_URL}/Boy+Toy.mp4" type="video/mp4" />
+              <source src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/Boy+Toy.mp4`} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             
