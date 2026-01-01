@@ -15,6 +15,12 @@ export default function Navbar() {
             <Link href="/projects">
               Projects
             </Link>
+            <Link href="/music">
+              Music
+            </Link>
+            <Link href="/writings">
+              Writings
+            </Link>
           </div>
         </div>
       </div>
