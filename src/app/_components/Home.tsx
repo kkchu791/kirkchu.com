@@ -104,7 +104,7 @@ export default function Home() {
 
         <div className="w-full max-w-5xl px-6 relative z-0">
           <div className="relative">
-            <video
+            {/* <video
               ref={videoRef}
               autoPlay
               loop
@@ -114,7 +114,7 @@ export default function Home() {
             >
               <source src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_BASE_URL}/Boy+Toy.mp4`} type="video/mp4" />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
             
             <button
               onClick={toggleMute}
@@ -145,7 +145,7 @@ export default function Home() {
           {/* Description */}
           <div className="text-center md:text-left">
             <p className="text-lg text-gray-700">
-              {`I'm just a Software Engineer...I'm not your Boy Toy.`}
+              {/* {`I'm just a Software Engineer...I'm not your Boy Toy.`} */}
             </p>
           </div>
         </div>
